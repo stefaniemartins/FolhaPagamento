@@ -1,6 +1,6 @@
 package poo;
 
-public abstract class Mensal {
+public class Mensal {
     String nome;
     double salario;
 
@@ -9,7 +9,7 @@ public abstract class Mensal {
         this.salario = salario;
     }
 
-    public void calcularSalario(){
+    public double calcularSalario(){
 
     }
 
